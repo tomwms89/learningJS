@@ -1,0 +1,94 @@
+#header {
+    background-color: #c7c8bc;
+    text-align: center;
+    visibility: visible;
+    position: relative;
+    height: 68px;
+}
+
+body{
+    font-size: small;
+    font-family: "Times New Roman", Times, serif;
+    line-height: 180%;
+    background-color: #e6e6d9;
+    margin: 0;
+}
+
+#navbar{
+    color: white;
+    font-size: 9px;
+    line-height: 16px;
+    background-color: #6b6c5a;
+    text-align: center;
+    letter-spacing: 6px;
+    margin-bottom: 15px;
+    height: 16px;
+}
+
+#logo{
+    margin: 0 10px 10px 18%;
+    height: 95px;
+}
+
+a{
+    color: white;
+    text-decoration: none;
+}
+
+a:hover{
+    color: #fc0;
+    text-decoration: none;
+}
+
+.leftcol{
+    text-align: right;
+    width: 20%;
+    float: left;
+}
+
+.menu-item{
+    color: #758642;
+    margin-top: 20px;
+    margin-left: 20px;
+    margin-top: 0 none;
+    margin-right: 0 none;
+    border-bottom: 1px dotted #758642;
+    border-left: 0 none;
+}
+
+.menu-item a:link{
+    color: #c63;
+    text-decoration: none;
+}
+
+.leftcol{
+    text-align: right;
+    width: 20%;
+    float: left;
+}
+
+.midcol{
+    padding-left: 36px;
+    width: 50%;
+    float: left;
+}
+
+.rightcol{
+    font-size: 10px;
+    font-style: italic;
+    line-height: 20px;
+    padding-left: 3%;
+    width: 15%;
+    float: left;
+}
+
+#footer{
+    color: white;
+    font-size: 9px;
+    line-height: 16px;
+    background-color: #6b6c5a;
+    text-align: center;
+    letter-spacing: 6px;
+    height: 16px;
+    clear: left;
+}
