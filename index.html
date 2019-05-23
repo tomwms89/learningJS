@@ -1,24 +1,196 @@
-<html>
+<!DOCTYPE html>
+<html lang="pt-br">
     <head>
+        <meta charset="utf-8">
         <title>This is not a test</title>
-        <style>
-            .title {
-                font-size: 60px;
-            }
-
-            #the-paragraph {
-                font-weight: 700;
-            }
-        </style>
+        <link ref="stylesheet" href="css/estilos.css" type="text/css" media="all">
     </head>
     <body>
-        <div class="content">
-            <h1 class="title">This is the title</h1>
-            <p id="the-paragraph">Lorem ipsum</p>
+        <div id="header">
+            <img src="./imgs/Lighthouse.jpg" alt="Imagem Topo">
         </div>
-
-        Name: <input type="text" id="name" value="Bob Esponja" />
-        <button onclick="alteraNome()">Alterar</button>
+    
+        <div id="navbar">
+            <a href="#">HOME</a>
+                "|"
+            <a href="#">HISTORY</a>
+                "|"
+            <a href="#">WILDLIFE</a>
+                "|"
+            <a href="#">VISITORS</a>
+                "|"
+            <a href="#">CONTACT</a>
+        </div>
+    
+        <div id="logo">
+            <img src="./imgs/1.jpg" alt="Imagem título">
+        </div>
+    
+        <div class="leftcol">
+            <p>&nbsp;</p>
+            <div class="menu-item">
+                <a href="#">Article One</a>
+            </div>
+            <div class="menu-item">
+                <a href="#">Article Two</a>
+            </div>
+            <div class="menu-item">
+                <a href="#">Article Three</a>
+            </div>
+            <div class="menu-item">
+                <a href="#">Article Four</a>
+            </div>
+            <p>&nbsp;</p>
+        </div>
+    
+        <div class="midcol">
+            
+            Lorem ipsum dolor sit amet, consectetuer adipiscing elit, 
+            sed diam nonummy nibh euismod tincidunt ut laoreet dolore magna 
+            aliquam erat volutpat. Ut wisi enim ad minim veniam, quis nostrud 
+            exerci tation ullamcorper suscipit lobortis nisl ut aliquip ex ea 
+            commodo consequat.
+            
+            <p>Duis autem vel eum iriure dolor in hendrerit in vulLorem ipsum 
+            dolor sit amet, consectetuer adipiscing elit, sed diam nonummy 
+            nibh euismod tincidunt ut laoreet dolore magna aliquam erat volutpat. 
+            Ut wisi enim ad minim veniam, quis nostrud exerci tation ullamcorper 
+            suscipit lobortis nisl ut aliquip ex ea commodo consequat. </p>
+    
+            <p>Duis autem vel eum iriure dolor in hendrerit in vulputate velit 
+            esse molestie consequat, vel illum dolore eu feugiat nulla facilisis 
+            at vero eros et accumsan et iusto odio dignissim qui blandit praesent 
+            luptatum zzril delenit augue duis dolore te feugait nulla facilisi. 
+            putate velit esse molestie consequat, vel illum dolore eu feugiat nulla 
+            facilisis at vero eros et accumsan et iusto odio dignissim qui 
+            blandit praesent luptatum zzril delenit augue duis dolore te feugait 
+            nulla facilisi.</p>
+            <p>&nbsp;</p>
+        </div>
+    
+        <div class="rightcol">
+            <p><img src="./imgs/Chrysanthemum.jpg" alt="Crisântemos"></p>
+            <p>Ut wisi enim ad minim veniam, quis nostrud exerci tation ullamcorper 
+                suscipit lobortis nisl ut aliquip ex ea commodo consequat.</p>
+        </div>
+    
+        <div id="footer">
+            <a href="#">HOME</a>
+                "|"
+            <a href="#">HISTORY</a>
+                "|"
+            <a href="#">WILDLIFE</a>
+                "|"
+            <a href="#">VISITORS</a>
+                "|"
+            <a href="#">CONTACT</a>
+        </div>
+    
+        <div id="table-simples">
+            <table width="100%" border="0" cellspacing="2" cellpadding="0">
+                <tbody>
+                    <tr>
+                        <td>1</td>
+                        <td>2</td>
+                        <td>3</td>
+                        <td>4</td>
+                    </tr>
+                    <tr>
+                        <td>1</td>
+                        <td>2</td>
+                        <td>3</td>
+                        <td>4</td>
+                    </tr>
+                    <tr>
+                        <td>1</td>
+                        <td>2</td>
+                        <td>3</td>
+                        <td>4</td>
+                    </tr>
+                </tbody>
+            </table>
+        </div>
+    
+        <div id="table-simples">
+            <table width="100%" border="0" cellspacing="0" cellpadding="0">
+                <tbody>
+                    <tr>
+                        <td width="25%">1</td>
+                        <td width="25%">2</td>
+                        <td width="25%">3</td>
+                        <td width="25%">4</td>
+                    </tr>
+                    <tr>
+                        <td width="25%">1</td>
+                        <td width="25%">2</td>
+                        <td width="25%">3</td>
+                        <td width="25%">4</td>
+                    </tr>
+                    <tr>
+                        <td width="25%">1</td>
+                        <td width="25%">2</td>
+                        <td width="25%">3</td>
+                        <td width="25%">4</td>
+                    </tr>
+                </tbody>
+            </table>
+        </div>
+    
+        <div id="table-simples">
+            <table width="100%" border="0" cellspacing="3" cellpadding="0">
+                <tbody>
+                    <tr>
+                        <th>Heading 1</th>
+                        <th>Heading 2</th>
+                        <th>Heading 3</th>
+                        <th>Heading 4</th>
+                    </tr>
+                    <tr>
+                        <td>1</td>
+                        <td>2</td>
+                        <td>3</td>
+                        <td>4</td>
+                    </tr>
+                    <tr>
+                        <td>1</td>
+                        <td>2</td>
+                        <td>3</td>
+                        <td>4</td>
+                    </tr>
+                </tbody>
+            </table>
+        </div>
+    
+        <div id="table-simples">
+            <table width="100%" border="0" cellspacing="3" cellpadding="0">
+                <tbody>
+                    <tr>
+                        <th>Row 1</th>
+                        <td>2</td>
+                        <td>3</td>
+                        <td>4</td>
+                    </tr>
+                    <tr>
+                        <th>Row 1</th>
+                        <td>2</td>
+                        <td>3</td>
+                        <td>4</td>
+                    </tr>
+                    <tr>
+                        <th>Row 1</th>
+                        <td>2</td>
+                        <td>3</td>
+                        <td>4</td>
+                    </tr>
+                    <tr>
+                        <th>Row 1</th>
+                        <td>2</td>
+                        <td>3</td>
+                        <td>4</td>
+                    </tr>
+                </tbody>
+            </table>
+        </div>
 
         <script src="js/main.js"></script>
     </body>
