@@ -12,10 +12,23 @@
     </header>
     <section>
         <div>
-            
+            <p>Nº Início:
+                <input type="number" name="txtinicio" id="txtinicio" min="0">
+            </p>
+            <p>Nº Final:
+                <input type="number" name="txtfinal" id="txtfinal">
+            </p>
+            <p>Passo:
+                <input type="number" name="txtpasso" id="txtpasso" min="1">
+            </p>
+
+            <p>
+                <input type="button" value="Contar" onclick="contar()">
+            </p>
         </div>
-        <div>
-            
+
+        <div id="res">
+            Veja aqui sua contagem!
         </div>
     </section>
     <footer>
